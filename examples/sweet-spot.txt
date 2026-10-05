@@ -1,0 +1,24 @@
+# Sweet spot with over-unders
+# Try: zb check examples/sweet-spot.txt --ftp 250
+
+# Warm up: easy spin, then a few openers
+10m120w
+3x
+  30s110%
+  30s50%
+
+# Main set: 4 x 8 minutes at sweet spot
+4x
+  8m90%
+  4m55%
+
+# Over-unders: 1 minute over threshold, 2 minutes under
+3x
+  1m105%
+  2m95%
+  # recover before the next round
+  3m50%
+
+# Cool down
+5m30s120w
+4m100w
